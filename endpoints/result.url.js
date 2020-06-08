@@ -7,6 +7,7 @@ router.post('/', (req, res) => {
         if (err)
             console.error(err);
         console.log('Data written to file...');
+        res.status(201).json(true);
     })
 });
 module.exports = router;
