@@ -1,1 +1,3 @@
 node_modules/
+endpoints/result.txt
+endpoints/timeout.txt
